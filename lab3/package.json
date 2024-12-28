@@ -2,7 +2,7 @@
   "name": "lab3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<username>.github.io/lab3",
+  "homepage": "https://prommin140-6.github.io/web2024",
   "dependencies": {
     "cra-template": "1.2.0",
     "lab3": "file:",
