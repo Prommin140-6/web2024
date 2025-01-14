@@ -42,23 +42,40 @@
                 text="value: Tools: A-Frame, HTML5, CSS3; color: white; align: center; width: 4.8;"></a-entity>
         </a-plane>
 
+        <!-- Animated back Info Frame -->
+        <a-plane position="0 4 3" width="5" height="2" color="#1E90FF" opacity="0.85" material="side: double">
+            <!-- ข้อความด้านหน้า -->
+            <a-entity position="0 0.6 0"
+                text="value: Dear Professor,; color: white; align: center; width: 4.5;"></a-entity>
+            <a-entity position="0 0.2 0"
+                text="value: Thank you for your guidance; color: white; align: center; width: 4.5;"></a-entity>
+            <a-entity position="0 -0.2 0"
+                text="value: and inspiration throughout.; color: white; align: center; width: 4.5;"></a-entity>
+
+            <!-- ข้อความด้านหลัง (หมุน 180 องศา) -->
+            <a-entity position="0 0.6 0" rotation="0 180 0"
+                text="value: Wishing you health; color: white; align: center; width: 4.5;"></a-entity>
+            <a-entity position="0 0.2 0" rotation="0 180 0"
+                text="value: and happiness always.; color: white; align: center; width: 4.5;"></a-entity>
+            </a-plane>
+            <a-entity text="value: สวัสดีอาจารย์; font: https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap; color: white; align: center; width: 4;"></a-entity>
+
+
+
         <!-- Interactive Floating Icons -->
         <a-entity position="-2 8 -3" geometry="primitive: circle; radius: 0.5" material="color: #FF6347; opacity: 0.9"
             animation="property: position; dir: alternate; to: -2 7.7 -3; dur: 2000; loop: true">
-            <a-entity position="0 0 0.1"
-                text="value: HTML; color: white; align: center; width: 6;"></a-entity>
+            <a-entity position="0 0 0.1" text="value: HTML; color: white; align: center; width: 6;"></a-entity>
         </a-entity>
 
         <a-entity position="2 8 -3" geometry="primitive: circle; radius: 0.5" material="color: #4682B4; opacity: 0.9"
             animation="property: position; dir: alternate; to: 2 7.7 -3; dur: 2000; loop: true">
-            <a-entity position="0 0 0.1"
-                text="value: CSS; color: white; align: center; width: 6;"></a-entity>
+            <a-entity position="0 0 0.1" text="value: CSS; color: white; align: center; width: 6;"></a-entity>
         </a-entity>
 
         <a-entity position="0 8 -3" geometry="primitive: circle; radius: 0.5" material="color: #FFD700; opacity: 0.9"
             animation="property: position; dir: alternate; to: 0 7.7 -3; dur: 2000; loop: true">
-            <a-entity position="0 0 0.1"
-                text="value: A-Frame; color: black; align: center; width: 6;"></a-entity>
+            <a-entity position="0 0 0.1" text="value: A-Frame; color: black; align: center; width: 6;"></a-entity>
         </a-entity>
 
         <!-- Camera and Cursor -->
